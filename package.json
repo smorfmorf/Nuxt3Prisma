@@ -25,6 +25,7 @@
         "vue-router": "^4.5.1"
     },
     "devDependencies": {
+        "@types/node": "^25.0.9",
         "@vueuse/nuxt": "^13.3.0",
         "nuxt-file-storage": "^0.3.0",
         "sass": "^1.89.1"
