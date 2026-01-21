@@ -4,6 +4,9 @@ import os from "os";
 
 export default defineEventHandler(async (event) => {
   console.log(os.platform());
+  // Получение данных из запроса
+  const { param1, } = getQuery(event)
+  console.log('param1: ', param1);
   const body = await readBody(event);
   const user = await prisma.user.create({
     data: {
