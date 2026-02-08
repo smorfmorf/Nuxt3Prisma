@@ -2,16 +2,12 @@
 export default defineNuxtConfig({
     compatibilityDate: "2025-05-15",
     devtools: { enabled: true },
-    modules: [
-        "@nuxt/fonts",
-        "@nuxt/image",
-        "@pinia/nuxt",
-        "@vueuse/nuxt",
-        // "@prisma/nuxt",
-        // "dayjs-nuxt",
-        // "nuxt-typed-router",
-        //"nuxt-file-storage",
-    ],
+    modules: ["@nuxt/fonts", "@nuxt/image", "@pinia/nuxt", // "@prisma/nuxt",
+
+        "@vueuse/nuxt", "nuxt-pages-plus"],
+    // "dayjs-nuxt",
+    // "nuxt-typed-router",
+    //"nuxt-file-storage",
     fonts: {
         families: [{ name: "Nunito", provider: "google" }],
     },

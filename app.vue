@@ -1,6 +1,6 @@
 <template>
     <NuxtLayout>
         <!-- это страница из папка pages -->
-        <NuxtPage />
+        <PlusModalNuxtPage />
     </NuxtLayout>
 </template>
