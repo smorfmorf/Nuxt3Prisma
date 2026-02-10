@@ -5,7 +5,8 @@ generator client {
   provider   = "prisma-client"
   output     = "./generated"
 
-  // provider = "prisma-client-js"
+  // provider = "prisma-client-js"   // стандартный генератор с runtime, Rust бинарником.
+  // output не указываем → будет в node_modules/@prisma/client
 }
 
 datasource db {
