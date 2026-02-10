@@ -1,6 +1,6 @@
 // server/api/users.post.ts
-import prisma from "~/prisma/prisma";
 import os from "os";
+import prisma from "~~/prisma/prisma";
 
 export default defineEventHandler(async (event) => {
   console.log(os.platform());

@@ -17,7 +17,7 @@
         "@prisma/client": "^7.1.0",
         "@vueuse/core": "^13.3.0",
         "dayjs-nuxt": "^2.1.11",
-        "nuxt": "^3.17.5",
+        "nuxt": "^4.3.1",
         "nuxt-pages-plus": "^1.0.0-beta.3",
         "nuxt-typed-router": "^4.0.1",
         "pinia": "^3.0.3",
